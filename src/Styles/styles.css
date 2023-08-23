@@ -366,7 +366,41 @@ body {
   justify-content: center;
   padding-bottom: 3px;
 }
-
+@media (max-width: 404px) {
+  .nav-bar {
+    grid-template-columns: 1fr;
+    height: 15rem;
+    padding: 0rem;
+  }
+  .logo {
+    gap: 0rem;
+    justify-content: center;
+  }
+  .num-results {
+    justify-self: center;
+  }
+  .search {
+    width: 30rem;
+  }
+  .main {
+    flex-wrap: wrap;
+  }
+  .logo span {
+    font-size: 2.2rem;
+  }
+  .logo h1 {
+    font-size: 2rem;
+  }
+  .box {
+    height: 100%;
+  }
+  .details section {
+    padding: 4rem 2rem;
+  }
+  .rating {
+    padding: 2rem 1rem;
+  }
+}
 /*
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 40 / 48 / 64 / 80 / 96 / 128
