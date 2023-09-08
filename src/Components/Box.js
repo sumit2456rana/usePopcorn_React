@@ -8,7 +8,7 @@ function Box({ children }) {
         {isOpen ? "-" : "+"}
       </button>
       {isOpen && children}
-    </div>
+    </div> 
   );
 }
 
